@@ -24,3 +24,10 @@ for carro in carros:
 for indice, carro in enumerate(carros):
     print(indice, carro)
 
+
+#Métodos da classe list
+
+# .append = adicionar elementos na lista
+# .clear = limpar a lista
+# .copy = copiar a lista em uma instância diferente
+
