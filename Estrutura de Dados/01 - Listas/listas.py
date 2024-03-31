@@ -27,7 +27,22 @@ for indice, carro in enumerate(carros):
 
 #Métodos da classe list
 
-# .append = adicionar elementos na lista
+# .append = adicionar elementos na lista (um por um)
 # .clear = limpar a lista
 # .copy = copiar a lista em uma instância diferente
+# .count = contar quantas vezes um elemento aparece na lista
+# .extend = juntar listas
+
+l2 = lista.copy()
+print(lista)
+print(id(l2), id(lista))
+l2[0] = 2
+print(l2)
+print(lista)
+
+cores = ['red', 'green', 'blue', 'orange', 'blue', 'blue','red']
+
+print(cores.count("blue"))
+print(cores.count("red"))
+print(cores.count("orange"))
 
