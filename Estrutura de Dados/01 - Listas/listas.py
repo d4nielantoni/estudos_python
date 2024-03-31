@@ -32,6 +32,13 @@ for indice, carro in enumerate(carros):
 # .copy = copiar a lista em uma instância diferente
 # .count = contar quantas vezes um elemento aparece na lista
 # .extend = juntar listas
+# .index = para saber o índice da primeira ocorrencia do objeto
+# .pop = tira o última elemento por padrão, mas podemos passar o índice que queremos remover
+# .remove = diferente do pop, aqui passamos o objeto que queremos remover
+# .reverse = espelhar lista
+# .sort = ordenar lista
+# .len = ver tamanho da lista
+# .sorted = ordenar iteráveis
 
 l2 = lista.copy()
 print(lista)
@@ -45,4 +52,5 @@ cores = ['red', 'green', 'blue', 'orange', 'blue', 'blue','red']
 print(cores.count("blue"))
 print(cores.count("red"))
 print(cores.count("orange"))
+print(cores.index("orange"))
 
