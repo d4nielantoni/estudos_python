@@ -39,7 +39,8 @@ for contato in contatos:
 # items = retorna lista de tuplas
 # keys = retorna só a chaves do dicionário
 # pop = remover uma chave do dicionário
-#
+# popitem = não informa qual é a chave
+#setdefault = se atributo não existir 
 
 
 
