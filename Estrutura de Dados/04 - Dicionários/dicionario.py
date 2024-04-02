@@ -30,17 +30,25 @@ for contato in contatos:
     print(contato, contatos[contato])
 
 
-#Métodos classe dict
 
-# clear = limpar dicionario
-# copy = copia o dicionario (usado para nao mudar os dados do dicionario original)
-# fromkeys = criar chaves do dicionário mas não atribuir valores, ou atribuir um valor padrão
-# get = uma das formas de acessar valor no dicionário
-# items = retorna lista de tuplas
-# keys = retorna só a chaves do dicionário
-# pop = remover uma chave do dicionário
-# popitem = não informa qual é a chave
-#setdefault = se atributo não existir 
+"""
+Métodos classe dict
+
+clear = limpar dicionario
+copy = copia o dicionario (usado para nao mudar os dados do dicionario original)
+fromkeys = criar chaves do dicionário mas não atribuir valores, ou atribuir um valor padrão
+get = uma das formas de acessar valor no dicionário
+items = retorna lista de tuplas
+keys = retorna só a chaves do dicionário
+pop = remover uma chave do dicionário
+popitem = não informa qual é a chave
+setdefault = se atributo não existir 
+update = atualizar
+values = retorna valores das chaves
+in = verificar se uma chave existe ou não dentro do dicionário
+
+"""
+
 
 
 
