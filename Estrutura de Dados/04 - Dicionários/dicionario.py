@@ -46,6 +46,7 @@ setdefault = se atributo não existir
 update = atualizar
 values = retorna valores das chaves
 in = verificar se uma chave existe ou não dentro do dicionário
+del = deletar uma chave
 
 """
 
