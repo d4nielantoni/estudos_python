@@ -1,39 +1,31 @@
+"""
+Aqui é onde fica as operações disponiveis na calculadora,
+- func: a função lambda
+- operacao: nome da operação
+"""
+def pegar_opcoes():
+    return [
+        {"func": lambda val1, val2: val1 + val2, "operacao": "Soma"},
+        {"func": lambda val1, val2: val1 - val2, "operacao": "Subtração"},
+        {"func": lambda val1, val2: val1 * val2, "operacao": "Multiplicação"},
+        {"func": lambda val1, val2: val1 / val2, "operacao": "Divisão"},
+    ]
 
-print(
-    """
-    =========== MENU ==========
-    
-    [1] Adicionar
-    [2] Subtrair
-    [3] Multiplicar
-    [4] Dividir
-    
-    ===========================
-    """
-)
-escolha = int(input("Escolha: "))
+"""
+Aqui será printado na tela as opções disponiveis
+i: numero da opcao
+opcao[i][operacao]: retorna o nome da operacao tendo em vista o numero.
+"""
+def mostrar_opcoes(opcoes):
+    for i in range(len(opcoes)):
+        print(i, " - ", opcoes[i]['operacao'])
 
-if escolha == 1:
-    numero1 = int(input("Digite o primeiro número: "))
-    numero2 = int(input("Digite o segundo número: "))
-    soma = numero1 + numero2
-    print(f"{numero1} + {numero2} = {soma}")
 
-elif escolha == 2:
-    numero1 = int(input("Digite o primeiro número: "))
-    numero2 = int(input("Digite o segundo número: "))
-    subtracao = numero1 - numero2
-    print(f"{numero1} - {numero2} = {subtracao}")
-
-elif escolha == 3:
-    numero1 = int(input("Digite o primeiro número: "))
-    numero2 = int(input("Digite o segundo número: "))
-    multiplicacao = numero1 * numero2
-    print(f"{numero1} * {numero2} = {multiplicacao}")
-
-elif escolha == 4:
-    numero1 = int(input("Digite o primeiro número: "))
-    numero2 = int(input("Digite o segundo número: "))
-    divisao = numero1 / numero2
-    print(f"{numero1} / {numero2} = {divisao}")
-
+"""
+Calcula o resultado
+func: A operação que será aplicada
+val1, val2: os valores a serem aplicados
+"""
+def calcular(func, valor1, valor2):
+    print(func(valor1, valor2))
+    return func(valor1, valor2)
