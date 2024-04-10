@@ -21,3 +21,26 @@ print(Person.age)
 print(Person.introduce_yourself())
 print(Person.walk())
 
+"""
+Criando classes estudante agora
+"""
+
+class Estudante:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def caminhar(self):
+        return 'Caminhando...'
+
+
+estudante1 = Estudante("Daniel","Antoni")
+estudante2 = Estudante("Gabriel","Antoni")
+
+print(estudante1.nome, estudante1.sobrenome)
+print(estudante2.nome, estudante2.sobrenome)
+print(f"{estudante1.nome }" + estudante1.caminhar())
+
+
+
+
