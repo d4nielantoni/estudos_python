@@ -55,3 +55,9 @@ print(cores.count("red"))
 print(cores.count("orange"))
 print(cores.index("orange"))
 
+
+new_lista = ['Joao', 'Maria', 'Daniel', 'Luis']
+
+for nomes in new_lista:
+    print(nomes)
+
