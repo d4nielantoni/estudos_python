@@ -43,13 +43,15 @@ for indice, car in enumerate(cars):
 
 l2 = list.copy()
 print(list)
+
 print(id(l2), id(list))
 l2[0] = 2
 print(l2)
 print(list)
 
 cores = ['red', 'green', 'blue', 'orange', 'blue', 'blue','red']
-
+cores.append('oi')
+print(cores)
 print(cores.count("blue"))
 print(cores.count("red"))
 print(cores.count("orange"))
@@ -58,10 +60,13 @@ print(cores.index("orange"))
 
 new_list = [1,2,3,4,5,6]
 
+
 for numbers in new_list:
     for i in range(3):
         print(numbers * i)
 
+new_list.extend(cores)
+print(new_list)
 
 
 

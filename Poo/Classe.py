@@ -41,6 +41,8 @@ print(estudante1.nome, estudante1.sobrenome)
 print(estudante2.nome, estudante2.sobrenome)
 print(f"{estudante1.nome }" + estudante1.caminhar())
 
-
+numeros = [1,2,3,4,5]
+numeros = [num for num in numeros if num % 2]
+print(numeros)
 
 
