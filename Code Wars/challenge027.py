@@ -20,3 +20,4 @@ def update_light(current):
         return 'Green'.lower()
 
 
+print(update_light('green'))
