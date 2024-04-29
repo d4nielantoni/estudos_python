@@ -14,13 +14,13 @@ Note you should only return a number, the count of divisors. The numbers between
 see which numbers are counted in each case.
 """
 
-def count_divisors(n):
+def divisors(n):
     count = 0
     for i in range(1, n+1):
         if n % i == 0:
             count += 1
     return count
 
-print(count_divisors(12))
-print(count_divisors(4))
-print(count_divisors(5000))
+print(divisors(12))
+print(divisors(4))
+print(divisors(5000))
