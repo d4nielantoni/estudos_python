@@ -20,3 +20,4 @@ pyautogui.click(1121, 774)
 
 
 #ooioioioi
+#ooioioioi
