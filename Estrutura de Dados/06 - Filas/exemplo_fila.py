@@ -22,7 +22,6 @@ class Fila:
         for item in self.itens:
             print(item)
 
-# Exemplo de uso
 fila = Fila()
 fila.adicionar_elemento(1)
 fila.adicionar_elemento(2)
