@@ -21,7 +21,7 @@ class Pilha:
     def print_pilha(self):
         for item in reversed(self.itens): #reversed para imprimir a pilha na ordem certa
             print(item)
-
+ 
 pilha = Pilha()
 pilha.adicionar(1)
 pilha.adicionar(2)
