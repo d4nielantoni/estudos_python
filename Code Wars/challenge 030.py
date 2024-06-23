@@ -15,7 +15,7 @@ above.
 """
 a = 1
 b = 100
-
+ 
 def sum_dig_pow(a, b):
     eureka = []
     for i in range(a, b + 1):
