@@ -6,7 +6,7 @@ pessoa = {"nome": "Daniel", "idade":23}
 pessoa["nome"] = "Maria"
 pessoa["telefone"] = "0123456789"
 print(pessoa)
-
+ 
 # Acessar dados de dicionário
 
 print(pessoa["nome"])
