@@ -1,6 +1,6 @@
 from time import sleep
 import pyautogui
-
+ 
 while True:
     x, y = pyautogui.position()
 
