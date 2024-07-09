@@ -17,7 +17,3 @@ pyautogui.write(' ')
 pyautogui.click(1813, 285)
 sleep(2)
 pyautogui.click(1121, 774)
-
-
-#ooioioioi
-#ooioioioi
