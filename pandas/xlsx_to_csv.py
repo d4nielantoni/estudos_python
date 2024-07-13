@@ -12,3 +12,5 @@ arquivo_csv = r"C:\Users\Daniel Antoni\Downloads\Metas_2024.csv" #aqui copiar ca
 df.to_csv(arquivo_csv, index=False)
 
 print("Planilha convertida para CSV com sucesso!")
+
+#ooioioioio
