@@ -7,3 +7,4 @@ for i in range(4):
     alunos.append(aluno)    
 
 print(f'A ordem de apresentação será: {random.sample(alunos, 4)}') #random.sample() retorna uma lista com os elementos embaralhados
+ 
