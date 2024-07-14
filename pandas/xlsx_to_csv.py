@@ -1,5 +1,5 @@
 import pandas as pd
-
+ 
 arquivo_excel = r"C:\Users\Daniel Antoni\Downloads\Metas 2024.xlsx" #aqui copiar caminho do arquivo excel
 
 xls = pd.ExcelFile(arquivo_excel)
