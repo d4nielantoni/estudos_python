@@ -1,4 +1,4 @@
-from calculadora import pegar_opcoes, mostrar_opcoes, calcular
+from calculadora.calculadora import pegar_opcoes, mostrar_opcoes, calcular
 
 
 def main():
