@@ -22,5 +22,10 @@ if pokemon_info:
     print(f"{pokemon_info['id']}")
     print(f"{pokemon_info['height']}")
     print(f"{pokemon_info['weight']}")
+    
+    
+    
+    
+    #teste
 
 
