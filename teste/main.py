@@ -35,9 +35,6 @@ def images_to_pdf(image_folder, output_pdf):
     except Exception as e:
         print(f"Ocorreu um erro ao criar o PDF: {e}")
 
-
-
-#Uso da função
 image_folder = r"C:\Users\danie\Downloads\ilovepdf_pages-to-jpg" 
 output_pdf = r"C:\Users\danie\Downloads\vinos.pdf"  # Nome do arquivo PDF de saída
 images_to_pdf(image_folder, output_pdf)
