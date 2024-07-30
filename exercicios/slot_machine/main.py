@@ -42,6 +42,3 @@ def main():
 
 main()
 
-
-#oi
-#oi
