@@ -7,3 +7,4 @@ while True:
     print(f"({x}, {y})") #print mouse position
 
     sleep(2)
+
