@@ -22,5 +22,3 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
-
-# tested on a video of people walking
